@@ -1,0 +1,15 @@
+<h1>Cars</h1>
+<table class="table">
+    <thead>
+        <th scope="col">Car</th>
+        <th scope="col">Manufacture</th>
+    </thead>
+    <tbody>
+        {{#each cars}}
+        <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.manufacture}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
